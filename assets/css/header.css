@@ -1,0 +1,16 @@
+a:link {
+    text-decoration: none;
+    
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  header{
+    background-color: lightgrey;
+    text-align: center;
+  }
+
+  header a{
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/css/home.css">
+<div>
+    <h1 id="b">Projects :</h1>
+</div>
+
+
+<div id="a">
+<ul>
+    <% for(let i of project_list) { %>
+        <div id="projects">
+        <li>
+            <p> NAME: <%= i.name %> 
+                <br> Author: <%= i.author %>
+                <br> Description:
+           <%= i.description %> <a class="delete-button" href="/delete-project/?id=<%= i._id %>">X</a> </p>
+           <a href="/project-detail/?id=<%= i._id %>"  id="details">Details</a>
+        </li>
+        </div>
+
+        
+    <% } %>
+
+</ul>
+
+</div>

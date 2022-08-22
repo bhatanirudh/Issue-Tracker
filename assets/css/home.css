@@ -1,0 +1,16 @@
+#projects {
+    margin: auto;
+    border-radius: 15px;
+    background:lightblue;
+    padding: 15px;
+    width: 400px;
+    height: 100px;
+    }
+
+ul{
+        list-style: none;
+    }
+
+#b{
+    background-color: darkcyan;
+}
